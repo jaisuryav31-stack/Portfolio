@@ -1,0 +1,276 @@
+body {
+    background: #2fc9cc;
+    background: linear-gradient(96deg, rgba(47, 201, 204, 1) 14%, rgba(255, 255, 255, 1) 100%);
+    font-family: "Poppins", sans-serif;
+}
+
+.link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+
+}
+
+a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    background: #07858a;
+    background: linear-gradient(96deg, rgba(7, 133, 138, 1) 0%, rgba(113, 208, 217, 1) 1%, rgba(255, 255, 255, 1) 100%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a:hover {
+    background: #07858a;
+    background: linear-gradient(96deg, rgba(7, 133, 138, 1) 0%, rgba(113, 208, 217, 1) 1%, rgba(255, 255, 255, 1) 100%);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    transition: 0.2s ease;
+
+}
+
+.pic {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position: absolute;
+    left: 200px;
+    bottom: 250px;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    right: 300px;
+    bottom: 250px;
+
+}
+
+.home-page {
+    min-height: 100vh;
+    /* full page */
+    width: 100%;
+    background: linear-gradient(96deg, rgba(47, 201, 204, 1) 14%, rgba(255, 255, 255, 1) 100%);
+    padding: 80px;
+    box-sizing: border-box;
+}
+
+.about-page {
+    min-height: 100vh;
+    /* full page */
+    width: 100%;
+    background: linear-gradient(96deg, rgba(47, 201, 204, 1) 14%, rgba(255, 255, 255, 1) 100%);
+    padding: 80px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.corner-top-left {
+    top: 40px;
+    left: 40px;
+}
+
+.hori {
+    width: 120px;
+    height: 5px;
+    background-color: black;
+}
+
+.ver {
+    height: 120px;
+    width: 5px;
+    background-color: black;
+}
+
+.corner-bottom-right {
+    bottom: 40px;
+    right: 40px;
+    position: absolute;
+    transform: rotate(180deg);
+}
+
+hr {
+    text-decoration: none;
+    display: none;
+}
+
+.skills-page {
+    min-height: 100vh;
+    /* full page */
+    width: 100%;
+    background: linear-gradient(96deg, rgba(47, 201, 204, 1) 14%, rgba(255, 255, 255, 1) 100%);
+    padding: 80px;
+    box-sizing: border-box;
+    padding: 60px 0 60px 60px;
+}
+
+#html {
+    position: relative;
+    font-size: 4rem;
+    opacity: 20%;
+    bottom: 500px;
+    left: 900px;
+}
+
+#python {
+    position: relative;
+    font-size: 4rem;
+    opacity: 20%;
+    bottom: 300px;
+    left: 700px;
+}
+
+#css {
+    position: relative;
+    font-size: 4rem;
+    opacity: 20%;
+    bottom: 100px;
+    left: 1000px;
+}
+
+#js {
+    position: relative;
+    font-size: 4rem;
+    opacity: 20%;
+    bottom: 200px;
+    left: 750px;
+}
+
+.project-page {
+    min-height: 100vh;
+    /* full page */
+    width: 100%;
+    background: linear-gradient(96deg, rgba(47, 201, 204, 1) 14%, rgba(255, 255, 255, 1) 100%);
+    padding: 80px;
+    box-sizing: border-box;
+    padding: 60px 0 60px 60px;
+}
+
+.cal {
+    height: 300px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+button {
+    background: #07858a;
+    background: linear-gradient(96deg, rgba(7, 133, 138, 1) 0%, rgba(113, 208, 217, 1) 1%, rgba(255, 255, 255, 1) 100%);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background: #0a3536;
+
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: 0.2s ease;
+    transform: scale(1.2);
+}
+
+.achievements-page {
+    min-height: 100vh;
+    /* full page */
+    width: 100%;
+    background: linear-gradient(96deg, rgba(47, 201, 204, 1) 14%, rgba(255, 255, 255, 1) 100%);
+    padding: 80px;
+    box-sizing: border-box;
+    padding: 60px 0 60px 60px;
+    padding-top: 100px;
+
+}
+
+.ps {
+    height: 400px;
+    width: 800px;
+    border-radius: 15px;
+    position: relative;
+    left: 150px;
+    bottom: 100px;
+
+
+}
+
+.contact-page {
+    min-height: 100vh;
+    /* full page */
+    width: 100%;
+    background: linear-gradient(96deg, rgba(47, 201, 204, 1) 14%, rgba(255, 255, 255, 1) 100%);
+    padding: 80px;
+    box-sizing: border-box;
+    padding: 60px 0 60px 60px;
+    padding-top: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+
+}
+
+.left {
+    inset: 0;
+    position: absolute;
+    clip-path: polygon(0 0, 70% 0, 30% 100%, 0 100%);
+    z-index: 1;
+
+
+}
+
+.dev {
+    height: 100%;
+    width: 80%;
+}
+
+.right {
+    inset: 0;
+    position: absolute;
+    clip-path: polygon(100% 100%, 30% 100%, 70% 0, 100% 0);
+    background-color: rgb(42, 157, 202);
+    color: darkblue;
+
+    z-index: 2;
+}
+
+.contact {
+    position: absolute;
+    right: 8%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    max-width: 400px;
+}
+
+.home-back {
+    position: absolute;
+    right: 8%;
+    bottom: 20%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background-color: black;
+    background: linear-gradient(96deg, rgb(4, 5, 5) 0%, rgb(3, 5, 5) 1%, rgb(5, 2, 2) 100%);
+    padding: 10px;
+    color: white;
+}
+
+.about-back {
+    position: absolute;
+    right: 8%;
+    bottom: 10%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background-color: black;
+    background: linear-gradient(96deg, rgb(4, 5, 5) 0%, rgb(3, 5, 5) 1%, rgb(5, 2, 2) 100%);
+    padding: 10px;
+    color: white;
+}
+
